@@ -14,13 +14,15 @@ export default function About () {
                         I'm a passionate full-stack developer with over 5 years of experience building and deploying scalable software solutions across diverse domains.
                         I thrive at the intersection of clean code, intuitive user experiences, and secure infrastructure. Whether it’s launching decentralized apps, scaling cloud platforms, or mentoring devs—I’m always excited to tackle meaningful challenges.
                     </p>
-                    <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
-                        I specialize in:
-                        🧱 Blockchain Development – Smart contracts, dApps, Ethereum, Solidity
-                        - 🌐 Web Development – Full-stack with React, Next.js, Node.js, TypeScript, ASP.NET
-                        - 🔐 Cybersecurity – Network defense, malware analysis, and secure application development
-                        - ☁️ Cloud & DevOps – Docker, Kubernetes, Firebase, Linux system administration
-                    </p>
+                    <div className ="text-lg text-slate-700 dark:text-slate-300 leading-relaxed mb-6">
+                        <p className ="mb-4">I specialize in:</p>
+                        <ul className ="list-disc list-inside space-y-2">
+                            <li>🧱 <strong>Blockchain Development</strong> – Smart contracts, dApps, Ethereum, Solidity</li>
+                            <li>🌐 <strong>Web Development</strong> – Full-stack with React, Next.js, Node.js, TypeScript, ASP.NET</li>
+                            <li>🔐 <strong>Cybersecurity</strong> – Network defense, malware analysis, and secure application development</li>
+                            <li>☁️ <strong>Cloud & DevOps</strong> – Docker, Kubernetes, Firebase, Linux administration</li>
+                        </ul>
+                        </div>
                     <div className="flex flex-wrap gap-3 mb-6 justify-center">
                         {techStack.map(
                         (tech) => (
