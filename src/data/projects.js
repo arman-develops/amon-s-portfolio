@@ -1,4 +1,4 @@
-export default projects = [
+export const projects = [
     {
       name: "E-Commerce Platform",
       description: "Full-stack online store with payment integration and admin dashboard",
@@ -20,4 +20,4 @@ export default projects = [
       github: "https://github.com/username/weather-dashboard",
       live: "https://weather-dashboard-demo.vercel.app",
     },
-  ]
+]
