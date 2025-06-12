@@ -1,4 +1,4 @@
-export const projects = [
+export default projects = [
     {
       name: "E-Commerce Platform",
       description: "Full-stack online store with payment integration and admin dashboard",
