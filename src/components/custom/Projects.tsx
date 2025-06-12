@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Github, ExternalLink } from "lucide-react"
+import { ExternalLink } from "lucide-react"
+import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import {projects} from "../../data/projects"
@@ -33,18 +34,18 @@ export default function Projects() {
                             ))}
                             </div>
                             <div className="flex gap-3">
-                            <Button asChild size="sm" variant="outline" className="gap-2">
-                                <Link href={project.github} target="_blank">
-                                <Github className="w-4 h-4" />
-                                Code
-                                </Link>
-                            </Button>
-                            <Button asChild size="sm" className="gap-2">
-                                <Link href={project.live} target="_blank">
-                                <ExternalLink className="w-4 h-4" />
-                                Live Demo
-                                </Link>
-                            </Button>
+                                <Button asChild size="sm" variant="outline" className="gap-2">
+                                    <Link href={project.github} target="_blank">
+                                    <FaGithub className="w-4 h-4" />
+                                    Code
+                                    </Link>
+                                </Button>
+                                {project.live && <Button asChild size="sm" className="gap-2">
+                                    <Link href={project.live} target="_blank">
+                                    <ExternalLink className="w-4 h-4" />
+                                    Live Demo
+                                    </Link>
+                                </Button>}
                             </div>
                         </CardContent>
                         </Card>
