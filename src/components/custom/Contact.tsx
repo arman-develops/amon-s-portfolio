@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Github, Mail, Linkedin } from "lucide-react"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 export default function Contacts() {
     return (
@@ -15,19 +16,19 @@ export default function Contacts() {
                 <div className="flex justify-center gap-6">
                     <Button asChild size="lg" className="gap-2">
                     <Link href="mailto:alex.johnson@email.com">
-                        <Mail className="w-5 h-5" />
-                        alex.johnson@email.com
+                        <MdOutlineAlternateEmail className="w-5 h-5" />
+                        amon.victor.develops@gmail.com
                     </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline" className="gap-2">
-                    <Link href="https://linkedin.com/in/alexjohnson" target="_blank">
-                        <Linkedin className="w-5 h-5" />
+                    <Link href="https://linkedin.com/in/amon-victor" target="_blank">
+                        <FaLinkedin className="w-5 h-5" />
                         LinkedIn
                     </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline" className="gap-2">
-                    <Link href="https://github.com/alexjohnson" target="_blank">
-                        <Github className="w-5 h-5" />
+                    <Link href="https://github.com/arman-develops" target="_blank">
+                        <FaGithub className="w-5 h-5" />
                         GitHub
                     </Link>
                     </Button>
