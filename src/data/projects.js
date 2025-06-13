@@ -29,7 +29,7 @@ export const projects = [
     live: null
   },
   {
-    name: "The Pussy Cat App",
+    name: "The Cat App",
     description: "JavaScript application demonstrating interactive web development and DOM manipulation",
     tech: ["JavaScript", "HTML", "CSS", "DOM Manipulation"],
     github: "https://github.com/arman-develops/the-pussy-cat-app",

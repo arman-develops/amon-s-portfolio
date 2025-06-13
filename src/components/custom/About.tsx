@@ -34,7 +34,7 @@ export default function About () {
                     </div>
                     <div className="flex justify-center">
                         <Button asChild variant="outline" className="gap-2">
-                            <Link href="/resume.pdf" target="_blank">
+                            <Link href="/resume/amon-updated.pdf" target="_blank">
                             <FileText className="w-4 h-4" />
                             View Resume
                             </Link>
