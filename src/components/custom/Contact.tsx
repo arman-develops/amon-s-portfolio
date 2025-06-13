@@ -15,7 +15,7 @@ export default function Contacts() {
                 </p>
                 <div className="flex justify-center gap-6">
                     <Button asChild size="lg" className="gap-2">
-                    <Link href="mailto:alex.johnson@email.com">
+                    <Link href="mailto:amon.victor.develops@gmail.com">
                         <MdOutlineAlternateEmail className="w-5 h-5" />
                         amon.victor.develops@gmail.com
                     </Link>
