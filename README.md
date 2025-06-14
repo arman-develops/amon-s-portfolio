@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# arman-develops | Portfolio
 
-## Getting Started
+Welcome to my personal portfolio — built with **Next.js** and **Tailwind CSS**, this site showcases my projects, skills, and experience as a full-stack developer.
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm a passionate full-stack developer with over 5 years of experience building and deploying scalable software solutions across diverse domains.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I specialize in:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🧱 **Blockchain Development** – Smart contracts, dApps, Ethereum, Solidity  
+- 🌐 **Web Development** – Full-stack with React, Next.js, Node.js, TypeScript, ASP.NET  
+- 🔐 **Cybersecurity** – Network defense, malware analysis, and secure application development  
+- ☁️ **Cloud & DevOps** – Docker, Kubernetes, Firebase, Linux administration  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm always excited to collaborate, explore new tech, and mentor others in the developer community.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: React, Next.js, Tailwind CSS  
+- **Backend**: Node.js, Express, ASP.NET  
+- **Blockchain**: Ethereum, Solidity  
+- **Languages**: JavaScript, TypeScript, Go, C#, Rust, Python  
+- **Cloud & DevOps**: Docker, Kubernetes, Firebase, Linux
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Live Site
 
-## Deploy on Vercel
+Check it out here: [https://amon-s-portfolio.vercel.app/](https://amon-s-portfolio.vercel.app/)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📫 Connect With Me
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [github.com/arman-develops](https://github.com/arman-develops)  
+- LinkedIn: [linkedin.com/in/amon-victor](Amon on LinkedIn)  
+- Twitter: [https://x.com/victor_amo15231](https://x.com/victor_amo15231)  
+- Email: [amon.victor.develops@gmail.com](Send Me a Mail)
+
+---
+
+> Built with ❤️ using Next.js, deployed on Vercel.
+
+
